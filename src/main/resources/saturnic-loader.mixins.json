@@ -1,14 +1,10 @@
 {
-	"required": true,
-	"package": "name.saturnicloader.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	}
+  "required": false,
+  "package": "com.saturnic.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
