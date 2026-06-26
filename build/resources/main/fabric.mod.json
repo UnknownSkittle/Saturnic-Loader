@@ -14,7 +14,6 @@
   "depends": {
     "fabricloader": ">=0.16.7",
     "minecraft": "1.21.11",
-    "fabric-api": "*",
-    "rhino": "*"
+    "fabric-api": "*"
   }
 }
