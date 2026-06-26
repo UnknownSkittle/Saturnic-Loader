@@ -2,7 +2,8 @@ package name.saturnicloader;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.minecraft.resources.Identifier;
+import net.minecraft.util.Identifier;
+
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
