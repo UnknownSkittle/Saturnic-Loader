@@ -1,38 +1,20 @@
 {
-	"schemaVersion": 1,
-	"id": "saturnic-loader",
-	"version": "${version}",
-	"name": "Saturnic Loader",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/saturnic-loader/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"name.saturnicloader.SaturnicLoader"
-		],
-		"client": [
-			"name.saturnicloader.client.SaturnicLoaderClient"
-		]
-	},
-	"mixins": [
-		"saturnic-loader.mixins.json",
-		{
-			"config": "saturnic-loader.client.mixins.json",
-			"environment": "client"
-		}
-	],
-	"depends": {
-		"fabricloader": ">=0.19.3",
-		"minecraft": "~1.21.11",
-		"java": ">=21",
-		"fabric-api": "*"
-	}
+  "schemaVersion": 1,
+  "id": "saturnic-loader",
+  "version": "1.0.0",
+  "name": "Saturnic Loader",
+  "description": "Loads Saturnic clients from .strnc or dev folders using Rhino.",
+  "authors": ["Unknown_Skittle"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.saturnic.SaturnicLoaderMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "1.21.11",
+    "fabric-api": "*",
+    "rhino": "*"
+  }
 }
